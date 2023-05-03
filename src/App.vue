@@ -2,7 +2,7 @@
   <div id="app">
     <h1>Chuck Jokes Vue 🚀</h1>
     <ul>
-      <li v-for="(fact, index) in chuck" :key="index">{{ fact.value }} </li>
+      <li v-for="(fact, index) in chuck" :key="index">{{ fact.value }}</li>
     </ul>
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
         },
         {
           value:
-            "Chuck Norris doesn't read books. He stares them down until he gets the information he wants.",
+            "Chuck Norris doesn't read books, He stares them down until he gets the information he wants.",
         },
         {
           value: 'Time waits for no man. Unless that man is Chuck Norris.',
